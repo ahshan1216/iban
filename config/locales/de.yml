@@ -1,0 +1,12 @@
+de:
+  ibandit:
+    invalid_country_code: "'%{country_code}' ist kein gültiges IBAN-Länderkennzeichen gemäß ISO 3166-1"
+    invalid_check_digits: "Prüfziffer hat Betragsprüfung nicht bestanden. (%{expected_check_digits} Zeichen erwartet, %{check_digits} angegeben)."
+    invalid_length: "Länge entspricht nicht der SWIFT-Spezifikation (%{expected_length} Zeichen erwartet, %{length} angegeben)"
+    is_required: "ist erforderlich"
+    wrong_length: "hat nicht die richtige Länge (sollte %{expected} Zeichen haben)"
+    not_used_in_country: "wird nicht für %{country_code} verwendet"
+    non_alphanumeric_characters: "Nicht-alphanumerischen Zeichen gefunden: %{characters}"
+    invalid_format: "Unerwartetes Format für eine %{country_code}-IBAN."
+    is_invalid: "ist ungültig"
+    does_not_support_payments: "unterstützt keine Zahlungen"
